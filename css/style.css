@@ -6,7 +6,6 @@ body{
 }
 
 /* ---------------- proj08 css container-1 CSS-Grid ----------------- */
-
 .container-1 {
     display: grid;
     grid-gap: 3px;
@@ -40,10 +39,7 @@ body{
     background-color: greenyellow;
 }
 
-
 /* ---------------- proj08 css container-2 Fraction units & Repeat ----------------- */
-
-
 .container-2 {
     font-size: 2em;
     color: #ffeead;
@@ -89,10 +85,7 @@ body{
     background-color: #ffcc5c;
 }
 
-
 /* ---------------- proj08 css container-3 Positioning items ----------------- */
-
-
 .container-3 {
     font-size: 1.5em;
     color: #ffeead;
@@ -129,10 +122,7 @@ body{
     grid-column: 1 / -1;
 }
 
-
 /* ---------------- proj08 css container-4 Template Areas ----------------- */
-
-
 .container-4 {
     /* font-family: "raleway"; >> had been defined in 'body' */
     height: 100%;
@@ -151,12 +141,12 @@ body{
 
 @font-face {
     font-family: "monotype";
-    src: url(../css/fonts/monotypecorsiva/911Fonts.com_MonotypeCorsiva_Regular_-_911fonts.com_fonts_gyWJ.ttf)
+    src: url(../../proj_fonts/monotypecorsiva/911Fonts.com_MonotypeCorsiva_Regular_-_911fonts.com_fonts_gyWJ.ttf)
 }
 
 @font-face{
     font-family: 'raleway';
-    src: url(fonts/raleway/Raleway-Light.ttf)
+    src: url(../../proj_fonts/raleway/Raleway-Light.ttf)
 }
 
 .container-4 > .nav-right > .desktop {
@@ -188,7 +178,7 @@ body{
 }
 
 .container-4 > .showcase {
-    background-image: url(../showcase/gijjakuta.JPG);
+    background-image: url(../../proj_images/showcase/gijjakuta.JPG);
     background-size: 100% 100%;
     grid-column: s;
     height: 100%;
@@ -209,7 +199,6 @@ body{
     color: #4afc04;
     text-align: center;
 }
-
 
 .container-4 > .content {
     background-color: #fff;
@@ -268,10 +257,7 @@ body{
     color: #fff;
 }
 
-
 /* ---------------- proj08 css container-5 Auto fit and minmax ----------------- */
-
-
 .container-5 {
     display: grid;
     grid-gap: 5px;
@@ -297,10 +283,7 @@ body{
     background-color: #ffcc5c;
 }
 
-
 /* ---------------- proj08 css container-6 Implicit rows ----------------- */
-
-
 .container-6 {
     display: grid;
     grid-gap: 5px;
@@ -325,3 +308,5 @@ body{
 .container-6 > div:nth-child(4n) {
     background-color: #ffcc5c;
 }
+
+/* ---------------- End of proj08 css ---------------- */
